@@ -26,7 +26,6 @@ const absoluteMaximum = moment(new Date(8640000000000000 / 2)).startOf('day');
 
 function noop() {}
 
-//class DateRangePicker extends React.Component {
 class DateRangePicker extends BemMixin {
   static propTypes = {
     bemBlock: PropTypes.string,
